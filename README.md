@@ -18,3 +18,18 @@ printf( "I am %d years old", age);
 
 return 0;
 }
+
+int main()
+{
+/Luke Galvin [10] in total but needs to take into account terminator/
+char name [11]= "Luke Galvin";
+printf("My name is %s /n", name);
+
+/name of the array/ name[2] = "z"
+printf("My name is %s /n", name);
+
+char food[] = "Chicken";
+printf("My name is %s /n", food);
+
+strcpy (food, "Bacon"); /Here the array food is given a new value, bacon/
+printf("My name is %s /n", food);
