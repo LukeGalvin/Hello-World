@@ -15,3 +15,30 @@ int main()
 
    return 0;
 }
+
+
+Input with Scanf - Tutorial 11
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+  char favclass[20];
+  char favouritelecturer[20];
+  int classnumber 
+  
+  pintf("What class do you most enjoy? /n");
+  scanf("%s" , favclass);
+  
+  pintf("Who d you believe to be the best lecturer? /n");
+  scanf("%s" , favlecturer);
+  
+  pintf("How many class do you have? /n");
+  scanf("%d" , &favclass); / remember need this sign /
+  
+  printf("You best class wil be %s were %s will lecturer you and in the end of year exams you will pass %d classes" , favclass, favlecturer, classnumber);
+
+   return 0;
+}
