@@ -1,35 +1,17 @@
- int main()
-{
-/ Ensure to remind about variables /
+info.h - This will mean that what ever is put in the header file cannot be changed.
 
-int age; / This is a variable number / 
-age = 27
-printf( "I am %d years old", age);
-Try math function current year - birth year / changing age = 2016-1988
+#define CLASS "EM108"
+#define Pass 40
 
-int age;
-int currentyear;
-int birthyear;
+#include <stdio.h>
+#include <stdlib.h>
+#include "Info.h"
 
-currentyear = ;
-birthyear = ;
-age = currentyear - birthyear;
-printf( "I am %d years old", age);
-
-return 0;
-}
 
 int main()
 {
-/Luke Galvin [10] in total but needs to take into account terminator/
-char name [11]= "Luke Galvin";
-printf("My name is %s /n", name);
+   int goodGrade = (Pass * 2);
+   printf("%s considers %d a suitable grade for 1.1", CLASS, goodGrade); / ALL CAPS MEANS ITS DEFINED DOESNT CHANGE /
 
-/name of the array/ name[2] = "z"
-printf("My name is %s /n", name);
-
-char food[] = "Chicken";
-printf("My name is %s /n", food);
-
-strcpy (food, "Bacon"); /Here the array food is given a new value, bacon/
-printf("My name is %s /n", food);
+   return 0;
+}
